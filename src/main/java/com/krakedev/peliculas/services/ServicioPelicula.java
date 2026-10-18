@@ -9,7 +9,7 @@ import com.krakedev.peliculas.entidades.Pelicula;
 import com.krakedev.peliculas.repository.PeliculaRepository;
 
 @Service
-public class ServicioPelicula {
+public class ServicioPelicula { //definicion de los servicios a ejecutarse
 
 	private final PeliculaRepository repository;
 

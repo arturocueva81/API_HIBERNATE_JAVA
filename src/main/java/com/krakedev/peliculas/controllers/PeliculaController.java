@@ -19,7 +19,7 @@ import com.krakedev.peliculas.services.ServicioPelicula;
 
 @RestController
 @RequestMapping("/peliculas")
-public class PeliculaController {
+public class PeliculaController { //Controlador de los servicios disponibles
 
 	private final ServicioPelicula servicio;
 

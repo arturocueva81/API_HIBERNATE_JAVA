@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import com.krakedev.peliculas.entidades.Pelicula;
 
 @Repository
-public interface PeliculaRepository extends JpaRepository<Pelicula, Long> {
+public interface PeliculaRepository extends JpaRepository<Pelicula, Long> { //Repository de listas de busqueda
 
 	List<Pelicula> findByGenero(String genero);
 	List<Pelicula> findByDisponible(boolean disponible);
